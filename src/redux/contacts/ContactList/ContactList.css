@@ -1,0 +1,30 @@
+.contactList {
+    list-style: none;
+    padding: 0; 
+    width: 340px; 
+    margin: auto;
+  }
+  
+  .contactList li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contactList button {
+    cursor: pointer;
+    background-color: #1b29e4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  .contactList button:hover {
+    background-color: #d8061b;
+
+
+  }
